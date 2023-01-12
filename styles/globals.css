@@ -105,3 +105,103 @@ a {
     color-scheme: dark;
   }
 }
+
+.left-button {
+  color: white;
+    background-color: green;
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    border-radius: 25px;
+}
+.left-button:hover {
+  background-color: white;
+  color: green;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.right-button {
+  color: white;
+    background-color: red;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 25px;
+
+}
+.right-button:hover {
+  color: red;
+  background-color: white;
+  font-weight: bolder;
+  cursor: pointer;
+
+}
+
+
+.sumbit {
+  color: white;
+  background-color: #2a9d8f;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  border: none;
+  border-radius: 20px;
+}
+.sumbit:hover {
+  background-color: white;
+  color: #2a9d8f;
+  cursor: pointer;
+  font-weight: bolder;
+  transition: 0.4s ease-in-out;
+  transform: translateY(-0.40em);
+  transition: transform 0.30s ease-out; 
+ 
+ 
+}
+
+.fName {
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+ 
+}
+
+
+
+.lName {
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+}
+
+.input {
+  width: 250px;
+  height: 35px;
+  border: none; 
+}
+
+.input::placeholder {
+  color: white;
+  opacity: 0.65;
+  padding-left: 10px;
+ 
+ 
+}
+main {
+background-image: url("https://images.unsplash.com/photo-1610296669228-602fa827fc1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1550&q=80");
+  background-size: cover;
+  z-index: -1;
+}
+
+.__className_9c9965 {
+  font-size: 35px;
+  font-weight: bolder;
+ 
+}

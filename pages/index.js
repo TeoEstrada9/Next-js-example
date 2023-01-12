@@ -40,30 +40,36 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
 
-        <label>First name:</label>
-        <input
+        <label className='fName'>First name:</label>
+        <input className='input'
         type="text"
         id="first"
         name="first"
         required
+        placeholder='Enter First Name'
+        autoComplete='off'
         pattern="[A-Z] {1} [a-z] {2,10}"
         title="The first letter should be capitalized"
         onChange={(e => setFormData({...formData, firstName: e.target.value}))}
         
         />
-        <label>Username:</label>
-        <input
+        <label className='lName'>Username:</label>
+        <input className='input'
         type="text"
         id="username"
         name="username"
         required
+        placeholder='Enter Username'
+        autoComplete='off'
+        autoCapitalize='off'
+        autoCorrect='off'
         title="Type your username"
         minLength="5"
         maxLength="10"
         onChange={(e => setFormData({...formData, username: e.target.value}))}
        
         />
-        <button type="submit" onClick={() => CheckLogin()}>Submit</button>
+        <button className='sumbit' type="submit" onClick={() => CheckLogin()}>Submit</button>
       </main>
     </>
   )

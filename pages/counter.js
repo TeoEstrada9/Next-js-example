@@ -65,6 +65,7 @@ export default function Counter() {
             height={37}
             priority
           />
+          
           <div className={styles.thirteen}>
             <Image
               src="/thirteen.svg"
@@ -72,6 +73,7 @@ export default function Counter() {
               width={40}
               height={31}
               priority
+              
             />
           </div>
         </div>
@@ -79,14 +81,14 @@ export default function Counter() {
         <div className={styles.grid}>
           
             
-            <h2 className={inter.className}>
+            <h2  className={inter.className}>
               The number is:
             </h2>
             <p className={inter.className}>
               {number}
             </p>
-            <button onClick={() => setNumber(number + 1)}>Increment</button>
-            <button onClick={() => setNumber(number - 1 )}>Decrement</button>
+            <button className='left-button' onClick={() => setNumber(number + 1)}>Increment</button>
+            <button className='right-button' onClick={() => setNumber(number - 1 )}>Decrement</button>
           
         </div>
       </main>

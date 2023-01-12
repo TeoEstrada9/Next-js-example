@@ -235,6 +235,8 @@
     backdrop-filter: blur(24px);
   }
 
+  
+
   .description div {
     align-items: flex-end;
     pointer-events: none;
